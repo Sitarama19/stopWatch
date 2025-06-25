@@ -1,0 +1,117 @@
+.app-container {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/stopwatch-sm-bg.png');
+  background-size: cover;
+  min-height: 100vh;
+  padding: 40px;
+}
+
+@media screen and (min-width: 768px) {
+  .app-container {
+    background-image: url('https://assets.ccbp.in/frontend/react-js/stopwatch-lg-bg.png');
+    background-size: cover;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+  }
+
+  .heading {
+    font-size: 28px;
+  }
+}
+
+.stopwatch-bg-container {
+  max-width: 300px;
+  width: 30%;
+  margin: 25px;
+  flex: 1;
+}
+
+.heading {
+  font-family: 'Roboto';
+  text-align: center;
+  font-size: 48px;
+  color: #333333;
+}
+
+.stopwatch-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 35px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 35px;
+  background-color: #ffffff;
+  box-shadow: 0px 4px 16px 0px #bfbfbf;
+  border-radius: 12px;
+}
+
+.stopwatch-logo-container {
+  display: flex;
+  align-items: center;
+}
+
+.stopwatch-logo {
+  width: 25px;
+  height: 25px;
+  margin-right: 10px;
+}
+
+.timer-text {
+  font-family: 'Roboto';
+  font-size: 20px;
+  font-weight: 500;
+  color: #333333;
+}
+
+.stopwatch-time {
+  font-family: 'Roboto';
+  font-size: 40px;
+  font-weight: 500;
+  color: #333333;
+}
+
+.start-btn {
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-size: 12px;
+  background-color: #1db05f;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  height: 30px;
+  width: 60px;
+  margin: 10px;
+  border-radius: 5px;
+}
+
+.stop-btn {
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-size: 12px;
+  background-color: #ef0d36;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  height: 30px;
+  width: 60px;
+  margin: 10px;
+  border-radius: 5px;
+}
+
+.reset-btn {
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-size: 12px;
+  background-color: #eaa800;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  height: 30px;
+  width: 60px;
+  margin: 10px;
+  border-radius: 5px;
+}
